@@ -339,6 +339,16 @@ window-rule {
     open-floating true
 }
 
+// Enable blur behind the Ghostty terminal.
+// todo: Ghostty 1.4 will have native option
+window-rule {
+    match app-id="com.mitchellh.ghostty"
+
+    background-effect {
+        blur true
+    }
+}
+
 // Example: block out two password managers from screen capture.
 // (This example rule is commented out with a "/-" in front.)
 /-window-rule {
@@ -636,8 +646,11 @@ binds {
     Mod+Shift+P { power-off-monitors; }
 }
 
-include "dms/binds.kdl"
-include "dms/wpblur.kdl"
-include "dms/colors.kdl"
-include "dms/layout.kdl"
 include "dms/alttab.kdl"
+include "dms/binds.kdl"
+include "dms/colors.kdl"
+include "dms/cursor.kdl"
+include "dms/layout.kdl"
+include "dms/outputs.kdl"
+include "dms/windowrules.kdl"
+include "dms/wpblur.kdl"
