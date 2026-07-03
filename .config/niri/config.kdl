@@ -86,6 +86,9 @@ input {
 // Find more information on the wiki:
 // https://yalter.github.io/niri/Configuration:-Outputs
 // Remember to uncomment the node by removing "/-"!
+output "DP-2" { 
+    off 
+}
 output "DP-1" {
     // Uncomment this line to disable this output.
     // off

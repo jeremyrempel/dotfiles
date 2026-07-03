@@ -1,6 +1,44 @@
+# Local tooling / editor state
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.env
+.env.*
+!.env.example
+.agents/
+.codex/
+
+# DankMaterialShell generated/local state
+.config/DankMaterialShell/
+.config/DankMaterialShell/.firstlaunch
+.config/DankMaterialShell/.changelog-*
+.config/DankMaterialShell/plugins/
 .config/DankMaterialShell/firefox.css
 .config/DankMaterialShell/settings.json
+
+# Generated theme outputs
 .config/dgop/colors.json
 .config/ghostty/config-dankcolors
-.config/niri/dms/
+.config/ghostty/themes/
 .config/ohmyposh/colors.json
+
+# Machine-specific niri snippets
+.config/niri/dms/
+
+# GTK theme generator artifacts
+.config/gtk-3.0/assets/
+.config/gtk-3.0/*.backup.*
+.config/gtk-3.0/colors.css
+.config/gtk-3.0/dank-colors.css
+.config/gtk-3.0/gtk.css
+.config/gtk-3.0/window_decorations.css
+.config/gtk-4.0/assets/
+.config/gtk-4.0/*.backup.*
+.config/gtk-4.0/colors.css
+.config/gtk-4.0/dank-colors.css
+.config/gtk-4.0/window_decorations.css
+
+# Generated Neovim theme/plugin output
+.config/nvim/lua/plugins/dankcolors.lua
