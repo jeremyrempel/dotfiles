@@ -40,4 +40,5 @@ Thumbs.db
 .config/gtk-4.0/window_decorations.css
 
 # Generated Neovim theme/plugin output
-.config/nvim/lua/plugins/dankcolors.lua
+.config/nvim/colors/
+.config/nvim/lua/
