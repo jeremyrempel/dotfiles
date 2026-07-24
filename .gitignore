@@ -22,7 +22,6 @@ Thumbs.db
 .config/dgop/colors.json
 .config/ghostty/config-dankcolors
 .config/ghostty/themes/
-.config/ohmyposh/colors.json
 
 # Machine-specific niri snippets
 .config/niri/dms/
